@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../Style/menu.css"/>
+		<title>Bagel'Up</title>
+	</head>
+	
+	<body>
+		<header>	
+			<nav>	
+				<a href="../index.html" class="logoNaviguation">
+					<img src="../images/logo.png" alt="Logo Food Truck">
+				</a>
+				<ul> 
+					<li><div id="presentation"><a href="presentation.html"><h2>Présentation</h2></a></div></li>
+					<li><div id="menu"><a href="menu.html"><h2>Plats</h2></a></div></li>
+					<li><div id="localisation"><a href="localisation.html"><h2>Localisation & Contact</h2></a></div></li>
+				</ul>
+			</nav>
+		</header>
+		
+
+		<section class="menu">
+			<h1 class="titre">Nos Plats</h1>
+
+			<div class="BagelViande">
+				<h1>Bagels Viande</h1>
+				<div>
+					<h2>Le Poulet Vert<br><br>6,50€</h2>
+					<img src="../images/bagel_lePouletVert.jpg" alt="Bagel poulet">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel grillé avec blanc de dinde, tomates, concombre, pousses de légumes, salade et fromage frais."></div>
+				</div>
+
+				<div>
+					<h2>Le Cali Bacon<br><br>7,50€</h2>
+					<img src="../images/bagel_leCaliBacon.jpg" alt="Bagel Bacon">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel au sésame, bacon, œuf poché, cheddar fondu, avocat et tomate."></div>
+				</div>
+			</div>
+
+			<div class="BagelPoisson">
+				<h1>Bagels Poisson</h1>
+				<div>
+					<h2>Le Saumon Frais<br><br>7,50€</h2>
+					<img src="../images/bagel_leSaumonFrais.jpg" alt="Bagel Saumon">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel au sésame avec saumon fumé, roquette et fromage frais."></div>
+				</div>
+
+				<div>
+					<h2>Le Thon Frais<br><br>6,50€</h2>
+					<img src="../images/bagel_leThonFrais.jpg" alt="Bagel Thon">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel au sésame, thon mélangé au St Môret, tomates fraîches et mâche."></div>
+				</div>
+			</div>
+
+			<div class="BagelVeggie">
+				<h1>Bagels Veggie</h1>
+				<div>
+					<h2>Le Kiwi Twist<br><br>6,50€</h2>
+					<img src="../images/bagel_leKiwiTwist.jpg" alt="Bagel kiwi">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel multi-graines garni de kiwi frais, concombre et St Môret."></div>
+				</div>
+
+				<div>
+					<h2>Le Tomate Mozza<br><br>6,50€</h2>
+					<img src="../images/bagel_leTomateMozza.jpg" alt="Bagel Tomate Mozzarella">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel au sésame avec tomates, mozzarella crémeuse, roquette et vinaigrette légère."></div>
+				</div>
+			</div>
+
+			<div class="BagelBrunch">
+				<h1>Bagels Brunch</h1>
+				<div>
+					<h2>Le Morning<br><br>7,50€</h2>
+					<img src="../images/bagel_leMorning.jpg" alt="Bagel Morning">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel au sésame garni de bacon, d’œufs brouillés et de fromage frais."></div>
+				</div>
+
+				<div>
+					<h2>Le Matin Français<br><br>7,50€</h2>
+					<img src="../images/bagel_leMatinFrancais.jpg" alt="Bagel Croissant">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel façon croissant, jambon de Paris, œuf au plat et ciboulette fraîche."></div>
+				</div>
+			</div>
+
+			<div class="BagelSucré">
+				<h1>Bagels Sucrés</h1>
+				<div>
+					<h2>Le Choco Framboise<br><br>5,00€</h2>
+					<img src="../images/bagel_leChocoFramboise.jpg" alt="Bagel Choco Framboise">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel aux graines, framboises fraîches, copeaux de chocolat et chantilly légère."></div>
+				</div>
+
+				<div>
+					<h2>Le Duo à partager<br><br>7,00€</h2>
+					<img src="../images/bagel_lesFruitesAPartager.jpg" alt="Bagel Duo Sucré">
+					<button class="afficher">Afficher</button><button class="fermer">Fermer</button>
+					<div class="description" data-texte="Bagel classique, crème de myrtille ou pâte à tartiner, myrtilles fraîches ou banane, menthe et graines de chia."></div>
+				</div>
+			</div>
+				
+		</section>
+
+		<footer>
+			<p>© Bagel'Up. Tous droits réservés.</p>
+		</footer>
+
+		<script>
+			// Un seul script pour tous les bagels
+			document.querySelectorAll(".description").forEach(function (desc) {
+				const bloc = desc.parentElement;
+
+				bloc.querySelector(".afficher").addEventListener("click", function () {
+					desc.innerHTML = "";
+					const p = document.createElement("p");
+					p.textContent = desc.dataset.texte;
+					desc.appendChild(p);
+				});
+
+				bloc.querySelector(".fermer").addEventListener("click", function () {
+					desc.innerHTML = "";
+				});
+			});
+		</script>
+	</body>
+</html>

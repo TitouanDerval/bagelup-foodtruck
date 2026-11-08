@@ -1,0 +1,146 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-family: 'Courier New', Courier, monospace; 
+	background-image: url("../images/fondOrange.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+header {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+  	height: 75px;
+	background-color: #0000003d;
+	box-shadow: 20px 20px 20px #000000;
+}
+
+nav {
+	height: 100%
+}
+
+.logoNaviguation img{
+	float: left;
+	margin: 10px 0 0 20px;
+	height: 40px;
+	transition: transform 0.3s ease;
+}
+.logoNaviguation img:hover {
+	transform: scale(1.2);
+}
+
+ul {
+	float: right;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px #000000;
+	list-style: none;
+}
+
+#presentation {
+	position: absolute;
+	display: inline;
+	top: 7px;
+	left: 1125px;	
+	transition: transform 0.3s ease;
+}
+#presentation:hover {
+	transform: scale(1.2);
+}
+#menu {
+	position: absolute;
+	display: inline;
+	top: 7px;
+	left: 1350px;		
+  	transition: transform 0.3s ease;
+}
+#menu:hover {
+	transform: scale(1.2);
+}
+#localisation {
+	position: absolute;
+	display: inline;
+	top: 7px;
+	left: 1475px;
+  	transition: transform 0.3s ease;
+}
+#localisation:hover {
+	transform: scale(1.2);
+}
+
+a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:visited {
+	color: #ffffff;
+}
+a:hover {
+	color: #8f8f8f;
+}
+
+
+.menu {
+	position: absolute;
+	margin: 100px 0 0 50px;
+	text-align: center;
+}
+
+.menu div {
+	display: inline-block;
+	margin: 0px 30px 30px 0px;
+	width: 575px;
+	text-align: center;
+	text-shadow: 5px 5px 5px #000000;
+	background-color: #00000038;
+	border: solid 1px #ffffff81;
+	border-radius: 50px;
+	box-shadow: 15px 15px 20px #000000;
+}
+.menu h2 {
+  font-size: 17px;
+}
+.menu img {
+  	margin-bottom: 25px;
+	width: 150px;
+ 	border: solid 10px #ffffff;
+	border-radius: 200px;
+	transition: transform 0.3s ease;
+	box-shadow: 15px 15px 20px #000000;
+}
+.menu img:hover {
+	transform: scale(1.2);
+}
+
+.titre{
+	text-align: center;
+	font-size: 100px;
+	text-shadow: 10px 5px 10px #000000;
+}
+
+.BagelViande div, .BagelPoisson div, .BagelVeggie div, .BagelSucré div, .BagelBrunch div  {
+	display: inline-block;
+	margin: 0 20px 20px 20px;
+	width: 235px;
+	text-align: center;
+	background-color: #8d431e54;
+	border-radius: 50px;
+}
+
+footer {
+	position: absolute;
+	top: 1500px;
+	width: 100%;
+  	height: 35px;
+	text-align: center;
+	background-image: url(../images/fondOrange.jpg);
+}
+
+#affichage, #affichage1, #affichage2, #affichage3, #affichage4, #affichage5, #affichage6, #affichage7, #affichage8, #affichage9 {
+	margin-top: 3px;
+	margin-left: -1px;
+	background-color: #0000004b;
+	border: none;
+	text-align: center;
+}

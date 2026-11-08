@@ -1,0 +1,168 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-family: 'Courier New', Courier, monospace; 
+	background-image: url("../images/FondFoodTruck.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+header {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+  	height: 75px;
+	background-color: #0000003d;
+	box-shadow: 20px 20px 20px #000000;
+}
+
+nav {
+	height: 100%
+}
+
+.logoNaviguation img{
+	float: left;
+	margin: 10px 0 0 20px;
+	height: 40px;
+  	transition: transform 0.3s ease;
+}
+.logoNaviguation img:hover {
+	transform: scale(1.2);
+}
+
+ul {
+	float: right;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px #000000;
+	list-style: none;
+}
+
+#presentation {
+	position: absolute;
+	display: inline;
+	top: 7px;
+	left: 1125px;	
+  	transition: transform 0.3s ease;
+}
+#presentation:hover {
+	transform: scale(1.2);
+}
+#menu {
+	position: absolute;
+	display: inline;
+	top: 7px;
+	left: 1350px;		
+  	transition: transform 0.3s ease;
+}
+#menu:hover {
+	transform: scale(1.2);
+}
+#localisation {
+	position: absolute;
+	display: inline;
+	top: 7px;
+	left: 1475px;
+  	transition: transform 0.3s ease;
+}
+#localisation:hover {
+	transform: scale(1.2);
+}
+
+a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:visited {
+	color: #ffffff;
+}
+a:hover {
+	color: #8f8f8f;
+}
+
+
+.intro{
+	position: absolute;
+	margin: 300px 500px 0 500px;
+	text-align: center;
+	text-shadow: 5px 5px 5px #000000;
+}
+
+.logoIntro img{
+	height: 200px;
+}
+
+.miniPresentation{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+
+.indication1{
+	font-family: cursive;
+	font-size: 75px;
+  	transition: transform 0.3s ease;
+}
+.indication1:hover{
+	transform: scale(2);
+}	
+
+
+.presentationMenu {
+    position: absolute;
+	text-align: center;
+	top: 1000px;
+	right: 400px;
+	left: 400px;
+}
+
+.presentationMenu h1 {
+	text-shadow: 5px 5px 5px #000000;
+	background-image: url(../images/fondOrange.jpg);
+	box-shadow: 20px 20px 20px #000000;
+	border-radius: 10px;
+}
+.presentationMenu h2 {
+	text-shadow: 5px 5px 5px #000000;
+	background-image: url(../images/fondOrange.jpg);
+	box-shadow: 20px 20px 20px #000000;
+	border-radius: 10px;
+}
+
+.presentationMenu img {
+	width: 200px;
+	border-radius: 100px;
+	box-shadow: 20px 20px 20px #000000;
+	transition: transform 0.3s ease;
+}
+.presentationMenu img:hover {
+    transform: scale(1.2);
+}
+
+.produit1 { 
+	position: relative;
+    display: inline-block;
+    top: 50px;
+	left: -50px;
+}
+.produit2 { 
+	position: relative;
+    display: inline-block;
+    top: 50px;
+	left: 25px;
+}
+.produit3 { 
+    position: relative;
+    display: inline-block;
+    top: 50px;
+	left: 100px;
+}
+
+
+footer {
+	position: absolute;
+	top: 1600px;
+	width: 100%;
+    height: 35px;
+	text-align: center;
+	background-image: url(../images/fondOrange.jpg);
+}
